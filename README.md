@@ -1,2 +1,3 @@
 # COMP001A.LectureActvity4
-week 4 lecture activity 
+Author: Zachary Jordan
+Purpose: week 4 lecture activity 
