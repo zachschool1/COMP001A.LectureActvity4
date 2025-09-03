@@ -15,13 +15,82 @@
                 <li><a href="media.html">Media</a></li>
             </ul>
         </nav>
-        <caption> Table with absolute width values</caption>
+        <h1> Forms</h1>
     </header>
     <main>
+        <form action="/submit" method="post">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="Enter your Username">
+            
+            <br>
 
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="example@example.com">
+
+            <br>
+
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="1" max="100">
+
+            <br>
+
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+
+            <br>
+
+            <label for="subscribe">Subscribe to newsletter</label>
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+
+            <br>
+
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <!-- more options-->
+            </select>
+
+            <br>
+
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="comments" cols=50" rows="4"></textarea>
+
+            <br>
+
+            <label for="file">Upload your photo:</label>
+            <input type="file" id="file" name="file">
+
+            <br>
+
+            <label for="volume">Volume:</label>
+            <input type="range" name="volume" id="volume" min="0" max="10">
+
+            <br>
+
+            <label for="birthdate">Birth Date:</label>
+            <input type="date" name="birthdate" id="birthdate">
+
+            <br>
+
+            <label for="favcolor">Favorite Color:</label>
+            <input type="color" name="favcolor" id="favcolor">
+
+            <br>
+
+            <input type="submit" value="Submit">
+
+            <input type="reset" value="Reset">
+        </form>
     </main>
     <footer>
-        <p>&copy; Copyright Zachary Jordan Productions 2025
+        <p>&copy; Copyright Zachary Jordan Productions 2025</p>
     </footer>
     
 </body>
